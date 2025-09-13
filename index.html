@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushkar Mahajan | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-items">
+            <a href="#hero" class="nav-item active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+        <div class="container">
+            <h1 class="hero-title">Pushkar Mahajan</h1>
+            <p class="hero-subtitle">Full-Stack Developer & UI/UX Designer</p>
+            <p class="hero-description">
+                Creative computer science student passionate about building innovative web applications 
+                and crafting exceptional user experiences. Currently pursuing B.Tech in Computer Science 
+                at Tech University with expertise in modern development frameworks.
+            </p>
+            <div class="cta-container">
+                <a href="#projects" class="cta-btn cta-primary">Explore Work</a>
+                <a href="#contact" class="cta-btn cta-secondary">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content fade-in">
+                <div class="about-image">PM</div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hey there! I'm Pushkar Mahajan, a dedicated computer science student with a passion for 
+                        creating digital solutions that make a difference. My journey in tech began with 
+                        curiosity about how websites work, and it has evolved into a deep love for both 
+                        front-end and back-end development.
+                    </p>
+                    <p>
+                        Currently pursuing B.Tech in Computer Science at Pimpri Chinchwad University with a CGPA of 7. 
+                        I specialize in creating responsive web applications using modern technologies and 
+                        frameworks. My goal is to bridge the gap between technical functionality and 
+                        exceptional user experience.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new design trends, contributing to 
+                        open-source projects, or learning about emerging technologies in the web development space.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">7</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical Skills</h2>
+            <div class="skills-grid fade-in" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid fade-in" id="projectsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            pushkar.mahajan23@pcu.edu.in
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +91 7841861115
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <strong>LinkedIn</strong><br>
+                            <a href="#" style="color: #00d4ff;">https://www.linkedin.com/in/pushkar-mahajan-794932289</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div>
+                            <strong>GitHub</strong><br>
+                            <a href="#" style="color: #00d4ff;">https://github.com/pushkarmahajan2005</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        </body>
+        </html>
